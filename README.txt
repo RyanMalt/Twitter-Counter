@@ -5,23 +5,6 @@ Version: 1.0
 Date: 5/1/2015
 Program: Tweetalyzer
 
-Credit:
-    In Python Modules the code from python-twitter-1.1, httplib2-master,
-        python-oath2-master, simplejson-3.6.5, and setuptools-15.2 comes from
-        various authors.
-    
-    python-twitter-1.1:     The Python-Twitter Developers (c) 2013
-    httplib2-master:        Joe Gregorio (c) 2006
-    python-oath2-master:    Leah Culver (c) 2007
-    simplejson-3.6.5:       Bob Ippolito (c) 2006
-    setuptools-15.2:        Python Packaging Authority
-        
-    Much thanks to each one of these people and/or groups.  Without their code,
-        there would have been even more blood, sweat, and tears poured into this
-        project.
- 
---------------------------------------------------------------------------------
-
 ----------------------------------SUMMARY---------------------------------------
 
 Purpose:
@@ -30,37 +13,21 @@ Purpose:
 
 Oauth authorization:
     In order for this program to work, a series of "passwords" are needed from
-        the online twitter api.  This requires the registering of a twitter app
-        and the generating of these tokens and secret keys.
+        the online twitter api.  This requires registering a twitter app
+        and generating tokens and secret keys.
     
-    Once these four keys have been obtained, place them into the oauth.txt or
-        whatever file you like as long as it obeys the formatting of the
-        oauth.txt file setup.
+    Once these four keys have been obtained, place them into the oauth.txt file.
 
 Installation:
-    Theoretically, you should just be able to run install.sh, and it should be
-        okay.  Granted, I haven't tested this at all, but my theory is pretty
-        good.
-        
-    If install.sh fails, manually building and install everything in
-        PythonModules will be necessary.
-        ex)
-            #cd httplib2-master
-            #python setup.py build
-            #sudo python setup.py install
-        
-        -Make sure to install setuptools-15.2 first, then httplib2-master,
-            python-oauth2-master, and simplejson-3.6.5, then finally,
-            python-twitter-1.1
-        
+    After a severe overhaul, this will be done using a makefile and a Python
+        setup file, but currently, this is the process.
+    
     After installing all the python dependencies, compile all the .cpp's in 
         Source_Code, name the program "Tweetalyzer.out," then move it into the
         main Twitter_Project directory
     
     Finally, you likely will have to chmod +x analyzeTwitter.sh, Tweetalyzer.out
         and twitterScript.py.
-    
-    Now, feel free to play with your new toy!
 
 Commandline arguments:
      -a [OATH FILE]:
@@ -72,8 +39,8 @@ Commandline arguments:
             Access Token: YOURTOKENHERE
             Access Secret: YOURSECRETHERE
         
-        -All spacing and words before the actual keys MUST be there, or the
-            program WILL break
+        -All spacing and words before the actual keys must be there, or the
+            program will break.
         -The default file for this is "oauth.txt".
     
      -h:
@@ -115,9 +82,8 @@ Commandline arguments:
         ex)
             -v
         
-        -Notice that some messages will persist regardless.  This is largely
-            due to several very late nights and an unwillingness to rewrite 
-            large swathes.  Perhaps in a future update. 
+        -Notice that some messages will persist regardless.  This will be 
+            fixed in a future update.
             
 Return:
     Creates a file filled with
