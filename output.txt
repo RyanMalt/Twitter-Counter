@@ -1,0 +1,145 @@
+/**********************WORD COUNT**********************/
+time 4
+wraps 4
+that 3
+59 2
+7147231466 2
+boxes 2
+had 2
+hi 2
+order 2
+say 2
+that's 2
+twitter 2
+two 2
+22nd 1
+3rd 1
+alarm 1
+back 1
+better 1
+birthday 1
+black 1
+book 1
+candy 1
+city 1
+dog 1
+enjoy 1
+fantastic 1
+flown 1
+forbes 1
+forgot 1
+fun 1
+go 1
+happy 1
+hasn't 1
+hate 1
+have 1
+hop 1
+hot 1
+hot9 1
+how 1
+i'm 1
+inspiring 1
+it's 1
+kid 1
+liam 1
+list 1
+love 1
+lt3 1
+money 1
+mormon 1
+most 1
+nigga 1
+night 1
+not 1
+popping 1
+powerful 1
+probably 1
+ranks 1
+ringing 1
+ruby@sarahocran 1
+said 1
+seeing 1
+should 1
+stop 1
+u 1
+where 1
+woman 1
+women 1
+woo 1
+wow 1
+www 1
+y 1
+yall 1
+young 1
+/******************************************************/
+
+/**********************HASH TAGS***********************/
+#hello 12
+#bogo 2
+#gift 2
+#asswednesday 1
+#bed 1
+#bookofmormon 1
+#candykid 1
+#doodle 1
+#etsy 1
+#fylt3 1
+#jewelryforsale 1
+#longtimenosee 1
+#newborn 1
+#nipples 1
+#nsfw 1
+#nursery 1
+#payitforward 1
+#porn 1
+#porno 1
+#raven 1
+#sanfrancisco 1
+#sayhi 1
+#simplejoys 1
+#sketch 1
+#sweetlovelt3 1
+#toast 1
+/******************************************************/
+
+/***********************MENTIONS***********************/
+@alphabetsuccess 1
+@black_mamba_06 1
+@lcoetzer22 1
+@michaelessien 1
+@mkdigitalpt 1
+@msmarylee77 1
+@natschooler 1
+@rambodonkeykong 1
+@ruhanirabin 1
+@ryanhurstfans 1
+@tassiecrews 1
+@terrapuradf 1
+@tizianapittalug 1
+@witchycher 1
+/******************************************************/
+
+/**********************CITY,STATE**********************/
+Wandsworth, London
+/******************************************************/
+
+/********************BOUNDING BOXES********************/
+-0.259465 51.4173
+-0.127974 51.4173
+-0.127974 51.486
+-0.259465 51.486
+
+/******************************************************/
+
+/**********************SUMMARY**********************/
+Total words: 181
+Total unique words: 130
+Total discarded words: 14
+
+Total authors: 12
+Total unique authors: 11
+Total discarded authors: 0
+
+Total locations: 1
+/******************************************************/
